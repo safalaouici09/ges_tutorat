@@ -29,7 +29,7 @@
         #'security/security.xml',
         #'security/ir.model.access.csv',
         #'templates.xml',
-        #'views/etudiant.xml',
+        'views/etudiant_view.xml',
 	    #'reports.xml',
     ],
 
