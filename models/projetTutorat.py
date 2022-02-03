@@ -4,8 +4,9 @@ class ProjetTutorat(models.Model):
     _name = "tutorat.projet"
     _description = "Projet de tutorat "
 
-    idProjetTutorat = fields.Char(string="IdProjetTutorat", required=True)
-    descProjetTutorat = fields.Char(string="description")
-      
-    #commande_id  = fields.one2one('GestTutorat.commandeTutorat',
-        #ondelete='cascade', string="commande de projet ", required=True)
+    idProjet = fields.Char(string="Id Projet ", required=True)
+    descProjet = fields.Char(string="Description",required=True)
+    enseignant =fields.Char(string="Enseignant", required=True)
+    #idDemande = fields.many2one('tutorat.demande',
+    # ondelete='cascade', string="demande de tutorat", required=True)
+   

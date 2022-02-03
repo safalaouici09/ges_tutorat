@@ -28,8 +28,9 @@
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-        #'templates.xml',
-        'views/etudiant_view.xml',
+       
+        'views/projetTutorat_view.xml',
+        'views/demande_view.xml',
 	    #'reports.xml',
     ],
 
